@@ -1,0 +1,29 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    padding:20px;
+    .circle{
+      border-radius: 50%;
+      border:1px solid #ccc;
+   }
+    .central-icon{
+      background-image:url('../assets/icons/squareicon.svg');
+      background-repeat: no-repeat;
+      height: 50px;
+      width: 50px;
+      background-size: 50% 50%;
+      margin-top: 20px;
+      margin-left: 20px;
+   }
+   .vertical-line{
+      flex-grow: 1;
+      border-bottom: 2px solid #ccc;
+   }
+   .vertical-line:last-child {
+     display: none;
+   }
+   .notiification-date{
+     position: absolute;
+     text-align: center;
+   } 
+ }

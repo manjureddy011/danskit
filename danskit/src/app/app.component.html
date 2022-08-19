@@ -1,0 +1,14 @@
+<div *ngFor="let companyData of notificationData">
+  <div class="wrapper">
+    <ng-container *ngFor="let notifi of companyData.notification">
+      <div class="circle">
+        <div class="central-icon"></div>
+        <div class="notiification-date">
+          <p>{{notifi.notificationName}}</p>
+          <p>{{notifi.notificationDate}}</p>
+        </div>
+      </div>
+      <div class="vertical-line"></div>
+    </ng-container>
+  </div>
+</div>

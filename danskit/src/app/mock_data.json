@@ -1,0 +1,38 @@
+{
+  "companyDetails": [
+      {
+        "id":"aad7a630-af1c-4952-9cb4-44b8b847853b",
+        "companyName": "Bank one",
+        "companyNumber": 123456789,
+        "companyType": "Small Company",
+        "market": "DenMark",
+        "creation": "01-01-2021",
+        "notification":[ 
+          {
+            "notificationDate": "01-02-2021",
+            "notificationName":"Introduction"
+          },
+          {
+            "notificationDate": "06-02-2021",
+            "notificationName":"Alert"
+          },
+          {
+            "notificationDate": "11-02-2021",
+            "notificationName":"Reminder"
+          },
+          {
+            "notificationDate": "16-02-2021",
+            "notificationName":"Warning"
+          },
+          {
+            "notificationDate": "21-02-2021",
+            "notificationName":"Alert"
+          },
+          {
+            "notificationDate": "21-02-2021",
+            "notificationName":"Hardblock"
+          }
+        ]   
+      }
+  ]
+}
